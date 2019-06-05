@@ -1,0 +1,111 @@
+
+
+
+    <!DOCTYPE html><html><head><!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="p5.min.js"></script>
+        <script src="p5.dom.min.js"></script>
+        <script src="p5.sound.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Anton|Gloria+Hallelujah|Josefin+Sans|Lobster|Orbitron|Pacifico|Roboto+Mono|Shadows+Into+Light|Teko|ZCOOL+KuaiLe" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aclonica|Bangers|Bevan|Black+And+White+Picture|Black+Ops+One|Bungee+Inline|Ceviche+One|Condiment|Creepster|Diplomata|Eater|Faster+One|Finger+Paint|Fontdiner+Swanky|Freckle+Face|Fredericka+the+Great|Frijole|Hanalei+Fill|Knewave|Kranky|Limelight|Luckiest+Guy|Major+Mono+Display|Marck+Script|Merienda+One|Modak|Monoton|Montserrat+Subrayada|Permanent+Marker|Petit+Formal+Script|Princess+Sofia|Rye|Shojumaru|Sigmar+One|Titan+One|Ultra|Uncial+Antiqua|UnifrakturMaguntia|VT323|Vampiro+One|Vast+Shadow" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            .navbar a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <div class="dropdown">
+        <button class="dropbtn">Javascript
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="gamermoment.html">DVD</a>
+            <a href="squares.html">Square Drag</a>
+            <a href="donut.html">Rainbow Donut</a>
+            <a href="snake.html">Art Snake</a>
+            <a href="poster.html">Random Poster</a>
+
+        </div>
+    </div>
+</div>
+<script src="poster.js"></script>
+<script src="lists.js"></script>
+<script src="fonts.js"></script>
+
+<h1>Random Poster Generator</h1>
+<h3>Instructions: Reload page to generate a brand new movie poster!</h3>
+</body>
+</html>
+
+
+
